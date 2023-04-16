@@ -81,7 +81,7 @@ evo_log_viewer:
     # (Optional) Change the default parser pattern
     app_pattern: '/\[(?P<date>.*)\] (?P<logger>\w+).(?P<level>\w+): (?P<message>[^\[\{].*[\]\}])/'
     
-    # (Optional) Change the default date format
+    # (Optional) Change the default date format (comment id carbon:true)
     app_date_format: 'Y-m-d H:i:s'
     
     # (Optional) Use nesbot/Carbon for datetime parsing
